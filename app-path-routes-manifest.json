@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/health/route": "/api/health",
+  "/api/sales/currency/route": "/api/sales/currency",
+  "/api/sales/customers/route": "/api/sales/customers",
+  "/api/sales/dataset/reset/route": "/api/sales/dataset/reset",
+  "/api/sales/dataset/upload/route": "/api/sales/dataset/upload",
+  "/api/sales/export/route": "/api/sales/export",
+  "/api/sales/filters/route": "/api/sales/filters",
+  "/api/sales/insights/route": "/api/sales/insights",
+  "/api/sales/overview/route": "/api/sales/overview",
+  "/api/sales/products/route": "/api/sales/products",
+  "/api/sales/regions/route": "/api/sales/regions",
+  "/api/sales/seasonality/route": "/api/sales/seasonality",
+  "/api/sales/summary/route": "/api/sales/summary",
+  "/page": "/"
+}

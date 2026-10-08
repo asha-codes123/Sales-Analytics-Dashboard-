@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "onMatchHeaders": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/health",
+      "regex": "^/api/health(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/health(?:/)?$"
+    },
+    {
+      "page": "/api/sales/currency",
+      "regex": "^/api/sales/currency(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sales/currency(?:/)?$"
+    },
+    {
+      "page": "/api/sales/customers",
+      "regex": "^/api/sales/customers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sales/customers(?:/)?$"
+    },
+    {
+      "page": "/api/sales/dataset/reset",
+      "regex": "^/api/sales/dataset/reset(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sales/dataset/reset(?:/)?$"
+    },
+    {
+      "page": "/api/sales/dataset/upload",
+      "regex": "^/api/sales/dataset/upload(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sales/dataset/upload(?:/)?$"
+    },
+    {
+      "page": "/api/sales/export",
+      "regex": "^/api/sales/export(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sales/export(?:/)?$"
+    },
+    {
+      "page": "/api/sales/filters",
+      "regex": "^/api/sales/filters(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sales/filters(?:/)?$"
+    },
+    {
+      "page": "/api/sales/insights",
+      "regex": "^/api/sales/insights(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sales/insights(?:/)?$"
+    },
+    {
+      "page": "/api/sales/overview",
+      "regex": "^/api/sales/overview(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sales/overview(?:/)?$"
+    },
+    {
+      "page": "/api/sales/products",
+      "regex": "^/api/sales/products(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sales/products(?:/)?$"
+    },
+    {
+      "page": "/api/sales/regions",
+      "regex": "^/api/sales/regions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sales/regions(?:/)?$"
+    },
+    {
+      "page": "/api/sales/seasonality",
+      "regex": "^/api/sales/seasonality(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sales/seasonality(?:/)?$"
+    },
+    {
+      "page": "/api/sales/summary",
+      "regex": "^/api/sales/summary(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sales/summary(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
